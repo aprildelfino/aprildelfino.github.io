@@ -67,6 +67,8 @@ html,body {
     border: solid #a06216 8px;
     background: #ffcd63;
     background-image: url(imgs/orangebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
     display: none;
 }
