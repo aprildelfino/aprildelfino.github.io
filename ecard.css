@@ -148,11 +148,15 @@ h1 {
 
 /****** title ******/
 
+#facttitle {
+    width: 40%;
+}
+
 #title {
     width: 55%;
     position: absolute;
     left: 23%;
-    top: 70px;
+    top:10%;
     filter: drop-shadow(2px 2px 9px rgba(10, 0, 0, 0.9));
     animation: pulse 3s ease-in-out infinite;
 }
@@ -277,16 +281,14 @@ h1 {
 
 #guitarman {
     width: 100%;
-    height: auto;
     position: absolute;
     filter: drop-shadow(2px 2px 9px rgba(252, 197, 128, 0.1));
 }
 
 #strum {
     width: 30%;
-    position: absolute;
-    top: 132px;
-    left: 12%;
+    margin-top:50%;
+    margin-left:12%;
     animation: strumming 700ms ease-in-out infinite;
     transform-origin: top left;
 }
@@ -331,8 +333,7 @@ h1 {
 /****** little girl ******/
 
 .girl {
-    width: 120px;
-    height: 240px;
+    width: 10%;
     position: absolute;
     top: 53%;
     right: 30%;
